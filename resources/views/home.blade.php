@@ -7,7 +7,7 @@
             <img src="/svg/profile.svg" style="height: 150px;">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>Michel</h1></div>
+            <div><h1>{{ $user->username }}</h1></div>
             <div class="d-flex">
                 <div class="pr-4"><strong>50</strong> posts </div>
                 <div class="pr-4"><strong>10k</strong> followers</div>
